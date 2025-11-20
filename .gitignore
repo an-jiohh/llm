@@ -1,0 +1,25 @@
+﻿# Python venv
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# model checkpoints
+*.bin
+*.pt
+!lotto_gpt_best.pt
+*.pth
+*.safetensors
+checkpoints/
+runs/
+outputs/
+
+# data
+data/
+datasets/
+*.txt
