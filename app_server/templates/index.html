@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Lotto AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="page">
+        <div class="card">
+            <header class="card-header">
+                <h1 class="title">Lotto 자판기</h1>
+                <p class="subtitle">
+                    money, 당첨번호, 보너스 번호를 입력하면<br>
+                    Lotto AI가 당첨번호를 생성 및 당첨갯수, 수익률을 계산합니다.
+                </p>
+            </header>
+
+            <section class="card-body">
+                <form class="form" onsubmit="event.preventDefault(); sendLotto();">
+                    <div class="form-row">
+                        <label for="money">금액</label>
+                        <input
+                            id="money"
+                            type="number"
+                            placeholder="예: 20000"
+                            required
+                        />
+                    </div>
+
+                    <div class="form-row">
+                        <label for="winning">당첨번호</label>
+                        <input
+                            id="winning"
+                            type="text"
+                            placeholder="예: 8,12,16,20,22,38"
+                            required
+                        />
+                    </div>
+
+                    <div class="form-row">
+                        <label for="bonus">보너스 번호</label>
+                        <input
+                            id="bonus"
+                            type="number"
+                            placeholder="예: 14"
+                            required
+                        />
+                    </div>
+
+                    <button id="submitBtn" type="submit" class="btn-primary">
+                        실행
+                    </button>
+                </form>
+
+                <div class="result-section">
+                    <div class="result-header">
+                        <span>결과</span>
+                        <span id="statusText" class="status-text"></span>
+                    </div>
+                    <pre id="result" class="result-box"></pre>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
