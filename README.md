@@ -8,6 +8,7 @@
 
 [GPT 1 - 특정 기능 수행 모델까지의 여정](https://an-jiohh.github.io/blog/LLMgpt1)  
 [GPT 2 - 로또 번호 자판기 모델 구현, 학습, 결과](https://an-jiohh.github.io/blog/LLMgpt2)
+[GPT 3 - 모델 구현 후기](https://an-jiohh.github.io/blog/LLMgpt3) 
 
 ## 프로젝트 목적
 
