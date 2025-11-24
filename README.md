@@ -1,5 +1,7 @@
 # Lotto-GPT
 
+<img width="2032" height="1095" alt="deploy" src="https://github.com/user-attachments/assets/f1ab9f09-9f7c-4959-84fd-dc059b0e232d" />
+
 작은 GPT 모델을 직접 구현하고, 정제된 합성 데이터를 활용해 “로직 기반 문제(로또 계산)”를 얼마나 수행할 수 있는지 실험한 프로젝트입니다.
 
 이 프로젝트는 HuggingFace 모델을 사용하는 것이 아니라, Transformer 기반 GPT 구조를 직접 구현하고 평가까지를 목표로 진행하였습니다.
